@@ -68,6 +68,9 @@ function RootComponent() {
           }}
         >
           Posts
+        </Link>{' '}
+        <Link to={'https://www.google.com'} target="_blank">
+          Google
         </Link>
       </div>
       <Outlet />

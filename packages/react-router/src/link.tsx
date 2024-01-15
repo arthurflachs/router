@@ -377,6 +377,7 @@ export function useLinkProps<
   if (type === 'external') {
     return {
       href: to,
+      target,
     }
   }
 
